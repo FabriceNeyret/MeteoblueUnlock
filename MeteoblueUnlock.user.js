@@ -1,7 +1,7 @@
 /// ==UserScript==
 // @name        MeteoblueUnlock
 // @namespace   https://github.com/FabriceNeyret/MeteoblueUnlock
-// @version     1.0
+// @version     1.01
 // @description Unlock Meteoblue display
 // @author      Fabrice Neyret
 // // include     https://www.meteoblue.com/*
@@ -19,6 +19,6 @@
 window.addEventListener("DOMContentLoaded", function() {
     console.log("MeteoblueUnlock loaded");
         setInterval(() => {
-        document.body.class='';
+        document.body.className='';
     }, 1000 );
 }, false);
